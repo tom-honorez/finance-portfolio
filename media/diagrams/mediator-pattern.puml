@@ -1,0 +1,77 @@
+@startuml Mediator Pattern
+!theme plain
+skinparam backgroundColor #FFFFFF
+
+title Mediator Pattern - Component Communication
+
+actor "External\nTrigger" as Trigger
+
+package "Mediator" {
+    component [Mediator\nCore] as Mediator
+    component [Component\nContainer] as Container
+    
+    package "Flow Actions" {
+        component [Action 1] as Action1
+        component [Action 2] as Action2
+        component [Action 3] as Action3
+    }
+}
+
+package "Components" {
+    component [Risk\nCalculator] as Risk
+    component [Portfolio\nAggregator] as Portfolio
+    component [Strategy\nRegistry] as Registry
+}
+
+' Ownership relationships
+Container -down-> Risk : owns\n(unique_ptr)
+Container -down-> Portfolio : owns\n(unique_ptr)
+Container -down-> Registry : owns\n(unique_ptr)
+
+' Action creation
+Mediator -down-> Action1 : creates
+Mediator -down-> Action2 : creates
+Mediator -down-> Action3 : creates
+
+' Actions borrow components
+Action1 .right.> Risk : borrows\n(reference)
+Action1 .right.> Portfolio : borrows\n(reference)
+
+Action2 .right.> Portfolio : borrows\n(reference)
+Action2 .right.> Registry : borrows\n(reference)
+
+Action3 .right.> Risk : borrows\n(reference)
+Action3 .right.> Registry : borrows\n(reference)
+
+' Flow execution
+Trigger -right-> Mediator : executeFlow()
+Mediator -down-> Action1 : execute()
+Action1 -down-> Action2 : next
+Action2 -down-> Action3 : next
+
+note right of Mediator
+  **Responsibilities:**
+  - Owns all components
+  - Creates flow actions
+  - Manages thread safety
+  - Executes flows sequentially
+end note
+
+note bottom of Action1
+  **Actions only route data:**
+  1. Get component reference
+  2. Call component method
+  3. Return result
+  
+  NO business logic!
+end note
+
+note bottom of Risk
+  **Components are:**
+  - Single-threaded
+  - Stateless (or manage own state)
+  - Testable in isolation
+  - No mutexes needed
+end note
+
+@enduml

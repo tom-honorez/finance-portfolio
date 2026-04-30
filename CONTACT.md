@@ -1,0 +1,167 @@
+# 📞 Contact & Professional Profile
+
+## Professional Summary
+
+**Senior Quantitative Developer/Engineer** with expertise in:
+- High-performance algorithmic trading systems (C++20)
+- Quantitative pricing and derivatives valuation (Python)
+- Real-time risk management and analytics
+- Institutional-grade software architecture
+- Message-oriented distributed systems
+
+---
+
+## Current Projects
+
+### 🏦 Institutional Trading Platform
+- **Scale:** 50,000+ lines of C++20
+- **Architecture:** Mediator pattern, 87 components, 42 flow actions
+- **Infrastructure:** Kafka + RabbitMQ, Protobuf + JSON
+- **Status:** Phase 2 complete (Desktop Dashboard)
+- **Value:** €100,000+ baseline
+
+### 📊 Quantitative Pricing Library
+- **Language:** Python 3.11+
+- **Focus:** Multi-asset derivatives pricing and Greeks
+- **Models:** Black-Scholes, Monte Carlo (planned), Finite Difference (planned)
+- **Architecture:** Visitor pattern for extensible calculations
+- **Status:** Active development
+
+---
+
+## Technical Expertise
+
+### Programming Languages
+- **Expert:** C++20, Python
+- **Proficient:** TypeScript, SQL
+- **Familiar:** JavaScript, Bash
+
+### Quantitative Finance
+- Derivatives pricing (Black-Scholes, Monte Carlo)
+- Greeks calculation and sensitivity analysis
+- Risk management (VaR, concentration, drawdown)
+- Portfolio optimization
+- Backtesting and performance analytics
+- Strategy development (mean reversion, momentum, arbitrage)
+
+### Software Architecture
+- Design patterns (Mediator, Builder, Visitor, RAII)
+- Message-oriented architectures (Kafka, RabbitMQ)
+- Real-time data processing
+- High-performance computing
+- Type-safe error handling
+- Thread-safe concurrent systems
+
+### Technologies
+- **Messaging:** Kafka, RabbitMQ, Protobuf, JSON
+- **Databases:** PostgreSQL, TimescaleDB
+- **Numerical:** NumPy, SciPy
+- **Build Tools:** CMake, pytest
+- **Version Control:** Git, GitHub
+- **Frontend:** React, Electron, TypeScript (supporting role)
+
+---
+
+## Professional Interests
+
+### Target Roles
+- Senior Quantitative Developer
+- Quantitative Engineer
+- Algorithmic Trading Developer
+- Risk Management Engineer
+- High-Performance Computing Engineer
+
+### Industries
+- Quantitative Finance
+- Algorithmic Trading
+- Risk Management
+- Derivatives Pricing
+- High-Frequency Trading
+
+---
+
+## Code Philosophy
+
+### Quality Standards
+- ✅ **Zero technical debt** - Production-ready from day one
+- ✅ **Type safety** - Compile-time guarantees, runtime validation
+- ✅ **Memory safety** - RAII, unique_ptr ownership, no raw pointers
+- ✅ **Explicit errors** - Result<T, E> pattern, no hidden exceptions
+- ✅ **Clean code** - Clear naming, single responsibility, well-documented
+
+### Architecture Principles
+- **Separation of concerns** - Clear boundaries between components
+- **Dependency inversion** - Depend on abstractions, not concretions
+- **Single responsibility** - Each component does one thing well
+- **Open/closed** - Open for extension, closed for modification
+- **Interface segregation** - Small, focused interfaces
+
+---
+
+## Availability
+
+### Portfolio Access
+- **Public showcase:** This repository (simplified examples)
+- **Private repositories:** Available upon request under NDA
+- **Code review:** Happy to discuss implementation details
+- **Technical interview:** Available for architecture discussions
+
+### Contact Methods
+- **GitHub:** [Your GitHub Profile]
+- **LinkedIn:** [Your LinkedIn Profile]
+- **Email:** [Your Email]
+- **Location:** [Your Location]
+
+---
+
+## Additional Information
+
+### Education
+[Your Education - Degree, University, Year]
+
+### Certifications
+[Any relevant certifications - CFA, FRM, etc.]
+
+### Languages
+[Languages you speak - English, Dutch, etc.]
+
+---
+
+## Frequently Asked Questions
+
+### Q: Can I see the full source code?
+**A:** The full private repositories are available upon request under NDA for serious opportunities. This showcase repository contains simplified examples that demonstrate key patterns and techniques.
+
+### Q: What is your development approach?
+**A:** I follow a "production-ready from day one" philosophy. No shortcuts, no technical debt, no TODOs. Every line of code is written with the same quality standards as production code.
+
+### Q: What makes your trading platform different?
+**A:** 
+- **Dual broker support** (Kafka + RabbitMQ) for flexibility
+- **Dual serialization** (Protobuf + JSON) for performance and debugging
+- **4 mediator types** for different execution patterns
+- **100% unique_ptr** ownership for memory safety
+- **Zero technical debt** - clean, maintainable codebase
+
+### Q: What quantitative models do you implement?
+**A:** Currently Black-Scholes for European options with analytical Greeks. Planned: Monte Carlo simulation, finite difference methods, local volatility, stochastic volatility (Heston), and jump diffusion models.
+
+### Q: Are you available for contract work?
+**A:** [Your availability status]
+
+### Q: What is your preferred work arrangement?
+**A:** [Remote/Hybrid/On-site preference]
+
+---
+
+## References
+
+Available upon request.
+
+---
+
+**Last Updated:** April 30, 2026
+
+---
+
+*Note: Please update the bracketed sections [like this] with your actual information before making this repository public.*

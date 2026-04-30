@@ -1,0 +1,63 @@
+@startuml Message Flow
+!theme plain
+skinparam backgroundColor #FFFFFF
+
+title Message Flow - Strategy Registration Example
+
+participant "Strategy\nMediator" as Strategy
+participant "Kafka\n(Protobuf)" as Kafka
+participant "Reporting\nMediator" as Reporting
+participant "RabbitMQ\n(JSON)" as RabbitMQ
+participant "Dashboard\nMediator" as Dashboard
+participant "Electron\nUI" as UI
+
+== Strategy Registration ==
+
+Strategy -> Strategy : StrategyRegistrationSender
+activate Strategy
+Strategy -> Kafka : Publish\nStrategyRegistration\n(Protobuf)
+deactivate Strategy
+
+Kafka -> Reporting : Consume
+activate Reporting
+Reporting -> Reporting : StrategyRegistrationReceiver
+Reporting -> Reporting : RegisterStrategyAction
+Reporting -> Reporting : StrategyRegistry.register()
+Reporting -> RabbitMQ : Publish\nStrategyRegistered\n(JSON)
+deactivate Reporting
+
+RabbitMQ -> Dashboard : Consume
+activate Dashboard
+Dashboard -> Dashboard : StrategyRegisteredReceiver
+Dashboard -> Dashboard : UpdateStrategyListAction
+Dashboard -> Dashboard : StrategyOverview.addStrategy()
+Dashboard -> UI : IPC Event\n(JSON via stdout)
+deactivate Dashboard
+
+activate UI
+UI -> UI : Update React state
+UI -> UI : Re-render StrategyList
+deactivate UI
+
+note over Strategy, Kafka
+  **Kafka Benefits:**
+  - High throughput
+  - Persistent log
+  - Can replay for backtesting
+end note
+
+note over Reporting, RabbitMQ
+  **RabbitMQ Benefits:**
+  - Low latency
+  - Flexible routing
+  - Priority queues
+end note
+
+note over Dashboard, UI
+  **IPC Benefits:**
+  - No network overhead
+  - Simple JSON protocol
+  - Process isolation
+end note
+
+@enduml

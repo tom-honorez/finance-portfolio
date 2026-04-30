@@ -1,0 +1,104 @@
+@startuml Builder Pattern
+!theme plain
+skinparam backgroundColor #FFFFFF
+
+title Builder Pattern - Type-Safe Mediator Construction
+
+package "Builder Hierarchy" {
+    
+    abstract class "ReportingMediatorBuilder" as BaseBuilder {
+        + buildComponents()
+        + buildReceivers()
+        + buildSenders()
+        + buildSchedulers()
+        + buildFlows()
+        + {abstract} createBroker()
+        + {abstract} createSerializer()
+    }
+    
+    package "RW Builders" {
+        class "KafkaJsonRWBuilder" as KafkaJsonRW {
+            + createBroker() : KafkaBroker
+            + createSerializer() : JsonSerializer
+        }
+        
+        class "KafkaProtobufRWBuilder" as KafkaProtobufRW {
+            + createBroker() : KafkaBroker
+            + createSerializer() : ProtobufSerializer
+        }
+        
+        class "RabbitMQJsonRWBuilder" as RabbitMQJsonRW {
+            + createBroker() : RabbitMQBroker
+            + createSerializer() : JsonSerializer
+        }
+        
+        class "RabbitMQProtobufRWBuilder" as RabbitMQProtobufRW {
+            + createBroker() : RabbitMQBroker
+            + createSerializer() : ProtobufSerializer
+        }
+    }
+    
+    package "Exclusive Builders" {
+        class "KafkaJsonExclusiveBuilder" as KafkaJsonExcl
+        class "KafkaProtobufExclusiveBuilder" as KafkaProtobufExcl
+        class "RabbitMQJsonExclusiveBuilder" as RabbitMQJsonExcl
+        class "RabbitMQProtobufExclusiveBuilder" as RabbitMQProtobufExcl
+    }
+}
+
+BaseBuilder <|-- KafkaJsonRW
+BaseBuilder <|-- KafkaProtobufRW
+BaseBuilder <|-- RabbitMQJsonRW
+BaseBuilder <|-- RabbitMQProtobufRW
+
+BaseBuilder <|-- KafkaJsonExcl
+BaseBuilder <|-- KafkaProtobufExcl
+BaseBuilder <|-- RabbitMQJsonExcl
+BaseBuilder <|-- RabbitMQProtobufExcl
+
+class "Director" as Director {
+    + construct(builder)
+}
+
+class "ReportingMediator" as Mediator {
+    - components
+    - flows
+    - broker
+    - serializer
+}
+
+Director -right-> BaseBuilder : uses
+Director -down-> Mediator : creates
+
+note right of BaseBuilder
+  **Template Method Pattern:**
+  - Base class defines algorithm
+  - Subclasses provide specifics
+  - Compile-time type safety
+end note
+
+note bottom of Director
+  **Director ensures:**
+  - Correct build order
+  - All steps executed
+  - Validation
+  - Consistent construction
+end note
+
+note left of Mediator
+  **Result:**
+  - Fully configured mediator
+  - Type-safe
+  - All components wired
+  - Ready to run
+end note
+
+note as N1
+  **Complete Matrix:**
+  4 mediator types × 2 brokers × 2 serializers
+  = 16 total builders
+  
+  All combinations fully implemented!
+end note
+
+@enduml
