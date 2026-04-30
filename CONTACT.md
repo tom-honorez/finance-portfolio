@@ -14,18 +14,16 @@
 ## Current Projects
 
 ### 🏦 Institutional Trading Platform
-- **Scale:** 50,000+ lines of C++20
-- **Architecture:** Mediator pattern, 87 components, 42 flow actions
-- **Infrastructure:** Kafka + RabbitMQ, Protobuf + JSON
-- **Status:** Phase 2 complete (Desktop Dashboard)
-- **Value:** €100,000+ baseline
+- Large-scale C++20 production system
+- Modular architecture with distributed messaging
+- Real-time monitoring and multi-strategy support
+- Active development with production-ready core
 
 ### 📊 Quantitative Pricing Library
-- **Language:** Python 3.11+
-- **Focus:** Multi-asset derivatives pricing and Greeks
-- **Models:** Black-Scholes, Monte Carlo (planned), Finite Difference (planned)
-- **Architecture:** Visitor pattern for extensible calculations
-- **Status:** Active development
+- Python library for derivatives pricing
+- Multi-asset support with full Greek calculations
+- Extensible architecture for new models
+- Active development
 
 ---
 
@@ -45,20 +43,20 @@
 - Strategy development (mean reversion, momentum, arbitrage)
 
 ### Software Architecture
-- Design patterns (Mediator, Builder, Visitor, RAII)
-- Message-oriented architectures (Kafka, RabbitMQ)
+- Established design patterns
+- Message-oriented architectures
 - Real-time data processing
 - High-performance computing
-- Type-safe error handling
-- Thread-safe concurrent systems
+- Type-safe systems
+- Concurrent and distributed systems
 
 ### Technologies
-- **Messaging:** Kafka, RabbitMQ, Protobuf, JSON
-- **Databases:** PostgreSQL, TimescaleDB
-- **Numerical:** NumPy, SciPy
-- **Build Tools:** CMake, pytest
+- **Messaging:** Message brokers, multiple serialization formats
+- **Databases:** Time-series and relational databases
+- **Numerical:** NumPy, SciPy, scientific computing
+- **Build Tools:** Modern build systems and testing frameworks
 - **Version Control:** Git, GitHub
-- **Frontend:** React, Electron, TypeScript (supporting role)
+- **Frontend:** React, Electron, TypeScript
 
 ---
 
@@ -137,11 +135,11 @@
 
 ### Q: What makes your trading platform different?
 **A:** 
-- **Dual broker support** (Kafka + RabbitMQ) for flexibility
-- **Dual serialization** (Protobuf + JSON) for performance and debugging
-- **4 mediator types** for different execution patterns
-- **100% unique_ptr** ownership for memory safety
-- **Zero technical debt** - clean, maintainable codebase
+- **Production quality** - Zero technical debt, clean architecture
+- **Scalable design** - Modular components, flexible execution
+- **Modern technology** - Latest C++20 features and best practices
+- **Comprehensive** - Trading, risk, monitoring in one system
+- **Well-tested** - Unit, integration, and end-to-end tests
 
 ### Q: What quantitative models do you implement?
 **A:** Currently Black-Scholes for European options with analytical Greeks. Planned: Monte Carlo simulation, finite difference methods, local volatility, stochastic volatility (Heston), and jump diffusion models.

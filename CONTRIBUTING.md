@@ -35,10 +35,9 @@ I'm happy to:
 
 If you're a developer interested in the patterns and techniques:
 
-1. **Study the code samples** - They demonstrate key patterns
-2. **Read the documentation** - Detailed explanations of design decisions
-3. **Check the diagrams** - Visual representation of architecture
-4. **Ask specific questions** - I'm happy to discuss technical details
+1. **Read the documentation** - Overview of system architecture
+2. **Ask specific questions** - I'm happy to discuss technical details
+3. **Review the approach** - Learn about design philosophy
 
 **Note:** I cannot share the full private codebase publicly, but I can discuss:
 - Why I chose certain patterns
@@ -50,66 +49,43 @@ If you're a developer interested in the patterns and techniques:
 
 ## What You Can Learn From This Showcase
 
-### Architecture Patterns
+### Architecture Approach
 
-**Mediator Pattern:**
-- How to decouple components
-- Thread-safe communication
-- Testable design
-- See: [code-samples/cpp/mediator-pattern-example.cpp](code-samples/cpp/mediator-pattern-example.cpp)
+**System Design:**
+- Modular architecture
+- Message-driven communication
+- Scalable and maintainable
+- See: [docs/TRADING-PLATFORM.md](docs/TRADING-PLATFORM.md)
 
-**Builder Pattern:**
-- Type-safe construction
-- Compile-time validation
-- Flexible configuration
-- See: [docs/DESIGN-DECISIONS.md](docs/DESIGN-DECISIONS.md#4-builder-pattern-for-mediator-construction)
-
-**Visitor Pattern:**
-- Extensible calculations
-- Separation of concerns
-- Type-safe traversal
-- See: [code-samples/python/visitor-pattern-example.py](code-samples/python/visitor-pattern-example.py)
-
-### Quantitative Techniques
-
-**Derivatives Pricing:**
-- Black-Scholes implementation
+**Quantitative Techniques:**
+- Derivatives pricing
 - Greeks calculation
 - Scenario analysis
 - See: [docs/PRICING-LIBRARY.md](docs/PRICING-LIBRARY.md)
 
-**Risk Management:**
-- Real-time risk calculations
-- Concentration risk
-- Drawdown monitoring
-- See: [docs/TRADING-PLATFORM.md](docs/TRADING-PLATFORM.md#risk-management)
-
 ### Software Engineering
 
 **Code Quality:**
+- Production-ready from day one
 - Zero technical debt policy
-- Type safety (unique_ptr, Result<T,E>)
-- Memory safety (RAII, no raw pointers)
-- See: [docs/DESIGN-DECISIONS.md](docs/DESIGN-DECISIONS.md#15-no-technical-debt-policy)
+- Type-safe design
+- Comprehensive testing
 
 **Performance:**
-- Zero-cost abstractions
-- Move semantics
-- Lock-free where possible
-- See: [docs/TECHNOLOGY-STACK.md](docs/TECHNOLOGY-STACK.md)
+- Modern C++ best practices
+- Performance optimization
+- Low-latency execution
 
 ---
 
 ## Frequently Asked Questions
 
-### Can I use these code samples in my project?
+### Can I learn from your approach?
 
-The code samples are simplified educational examples. You're welcome to learn from them, but:
-- They are not production-ready (simplified for clarity)
-- They don't include all error handling and edge cases
-- The full implementations are more comprehensive
-
-For production use, I recommend understanding the patterns and implementing your own version suited to your needs.
+Yes! The documentation provides an overview of the system design and quantitative techniques. For detailed implementation discussions:
+- Contact me for architecture discussions
+- Full code available under NDA for serious opportunities
+- Happy to discuss design decisions and trade-offs
 
 ### Can I contribute to this repository?
 
