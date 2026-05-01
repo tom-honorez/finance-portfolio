@@ -105,7 +105,7 @@
 - **Technical interview:** Available for architecture discussions
 
 ### Contact Methods
-- **GitHub:** [Your GitHub Profile]
+- **GitHub:** https://github.com/tom-honorez
 - **LinkedIn:** [Your LinkedIn Profile]
 - **Email:** [Your Email]
 - **Location:** [Your Location]
