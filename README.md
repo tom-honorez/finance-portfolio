@@ -31,3 +31,8 @@ Experience building pricing and risk systems used in front-office environments, 
 ---
 
 > Core implementations are private and available upon request under NDA.
+
+---
+
+**Contact:** [LinkedIn](https://linkedin.com/in/tomhonorez) | [GitHub](https://github.com/tom-honorez) | tom.honorez@outlook.com  
+*Based in Zurich, Switzerland • Open to Switzerland, London, and Europe*

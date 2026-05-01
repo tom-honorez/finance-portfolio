@@ -99,16 +99,5 @@ This approach reflects practical experience building trading and risk systems, w
 
 ---
 
-## 📚 Additional Notes
+**Note:** This is a portfolio project. Full implementations available under NDA.
 
-* This is a **portfolio project**, not a production trading system
-* No real trading or financial advice functionality is provided
-* Architecture details are intentionally kept at a high level
-
----
-
-## 📞 Contact
-
-For discussions on system design, quantitative models, or implementation details:
-
-Full code and deeper technical walkthroughs are available upon request.
