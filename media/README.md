@@ -65,6 +65,8 @@ When adding media assets:
 
 ## Current Status
 
-🔄 **In Progress** - Media assets to be added after Phase 3 completion
+- **Screenshots:** ✅ Available - Dashboard overview with sample data
+- **Diagrams:** Planned for future updates
+- **Videos:** Planned for future updates
 
-Screenshots and videos will be added once the system is fully integrated and running end-to-end.
+Screenshots show the desktop monitoring application with representative data.

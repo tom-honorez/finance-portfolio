@@ -241,7 +241,7 @@ Testing:    pytest, property-based testing
 
 ## 🎥 Media
 
-- Screenshots *(Coming soon)*
+- [Screenshots](media/screenshots/) - Dashboard overview with sample data
 - Demo Videos *(Coming soon)*
 
 ---
