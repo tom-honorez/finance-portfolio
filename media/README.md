@@ -26,15 +26,13 @@ This directory contains visual assets for the portfolio showcase.
 
 **Location:** `screenshots/`
 
-**Planned screenshots:**
-- Dashboard overview page
-- Strategies page with active strategies
-- Portfolio page with positions
-- Trades page with blotter
-- Risk metrics display
-- Settings page
+**Available screenshots:**
+- Dashboard overview (portfolio state and strategy activity)
+- Strategy detail (strategy-level monitoring and position tracking)
+- Risk dashboard (portfolio risk aggregation and limit monitoring)
+- Portfolio analytics (performance attribution and aggregation)
 
-**Note:** Remove any sensitive data before adding screenshots
+**Note:** Screenshots show system output with sample data
 
 ---
 
@@ -43,10 +41,9 @@ This directory contains visual assets for the portfolio showcase.
 **Location:** `videos/`
 
 **Planned videos:**
-- System demo (10-15 minutes)
-- Code walkthrough
-- Architecture explanation
-- Live compilation and execution
+- System demonstration (execution flow and monitoring)
+- Architecture walkthrough (C++ components and messaging)
+- Build and compilation process
 
 **Format:** MP4, unlisted YouTube links
 
@@ -65,8 +62,8 @@ When adding media assets:
 
 ## Current Status
 
-- **Screenshots:** ✅ Available - Dashboard overview with sample data
+- **Screenshots:** ✅ Available - System state visualization with sample data
 - **Diagrams:** Planned for future updates
 - **Videos:** Planned for future updates
 
-Screenshots show the desktop monitoring application with representative data.
+Screenshots illustrate system state and outputs from the C++ trading platform.
