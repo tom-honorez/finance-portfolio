@@ -9,7 +9,6 @@ This component is designed as a pricing layer within a trading and risk system, 
 ### Pricing Models
 * Black-Scholes for European options valuation
 * Support for calls and puts
-* Designed with extensions towards Monte Carlo simulation and more advanced model frameworks used in production environments
 
 ### Risk Analytics
 * Greeks calculation (Delta, Gamma, Vega, Theta, Rho)
@@ -20,6 +19,19 @@ This component is designed as a pricing layer within a trading and risk system, 
 * Stress testing across market parameters
 * What-if scenario evaluation
 * Portfolio impact assessment
+
+---
+
+## Model Scope & Extensions
+
+The current implementation focuses on Black-Scholes as a baseline model, with the design structured to support extension towards more advanced frameworks used in production environments:
+
+* **Stochastic volatility models** (e.g. Heston)
+* **Local volatility approaches** (Dupire-style)
+* **Monte Carlo simulation** for path-dependent products
+* **Multi-asset and cross-asset scenarios** (equity, FX, rates)
+
+The goal is not isolated model implementation, but integration of pricing models within a consistent trading and risk system.
 
 ---
 
