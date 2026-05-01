@@ -35,4 +35,5 @@ Experience building pricing and risk systems used in front-office environments, 
 ---
 
 **Contact:** [LinkedIn](https://linkedin.com/in/tomhonorez) | [GitHub](https://github.com/tom-honorez) | tom.honorez@outlook.com  
-*Based in Zurich, Switzerland • Open to Switzerland, London, and Europe*
+*Based in Zurich, Switzerland • Open to Switzerland, London, and Europe*  
+*Available for full-time or contract positions*
