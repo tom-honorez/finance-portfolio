@@ -1,4 +1,4 @@
-# Quantitative Trading & Risk Platform (C++ / .NET)
+# Quantitative Trading & Risk Platform (C++)
 
 This project demonstrates the design of a trading and risk platform, focusing on how execution, portfolio state and risk are handled consistently in real time.
 
@@ -80,7 +80,22 @@ The implementation emphasizes:
 
 This reflects the same design concerns encountered in production trading and risk systems.
 
-Design patterns reflect real-world integration with trading platforms (e.g. Sophis) and pricing systems.
+The system design reflects hands-on experience integrating pricing and risk systems with production trading platforms such as Sophis.
+
+---
+
+## Architecture Approach
+
+The platform is structured around modular components with clear ownership of execution, position, portfolio and risk state, ensuring consistency across all stages of the trading lifecycle.
+
+Key design concerns include:
+
+* **Message-driven integration** - Asynchronous propagation of execution and market updates between components, reflecting real-time data flow in trading environments
+* **Deterministic handling** - Predictable behavior under concurrent updates, ensuring consistent portfolio and risk state
+* **Clear boundaries** - Separation between orchestration, calculation and monitoring responsibilities
+* **Type-safe construction** - Compile-time guarantees combined with runtime validation for critical system objects
+
+This approach reflects practical experience building trading and risk systems, where maintaining a consistent system state under real-time conditions is critical.
 
 ---
 

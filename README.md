@@ -24,6 +24,7 @@ Experience building pricing and risk systems used in front-office environments, 
 ## Technical Profile
 
 * **Languages:** C++17/20, Python, C#/.NET
+* **Messaging & Integration:** RabbitMQ, Kafka, AMQP, Protobuf, JSON serialization
 * **Domains:** Quantitative finance, trading systems, derivatives pricing
 * **Focus:** Bridging quantitative modeling with robust production system design (correctness, determinism, scalability)
 
