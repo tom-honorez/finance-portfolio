@@ -106,22 +106,29 @@
 
 ### Contact Methods
 - **GitHub:** https://github.com/tom-honorez
-- **LinkedIn:** [Your LinkedIn Profile]
-- **Email:** [Your Email]
-- **Location:** [Your Location]
+- **LinkedIn:** https://www.linkedin.com/in/tomhonorez/
+- **Email:** tom.honorez@outlook.com
+- **Location:** Zurich, Switzerland (open to relocation within Europe)
 
 ---
 
 ## Additional Information
 
 ### Education
-[Your Education - Degree, University, Year]
+- **Master of Advanced Studies in Applied Computer Science**  
+  Free University of Brussels (VUB), 2006–2007
 
-### Certifications
-[Any relevant certifications - CFA, FRM, etc.]
+- **Master of Financial and Actuarial Engineering**  
+  KU Leuven (Catholic University of Leuven), 2004–2006
+
+- **Master of Mathematics, Mathematical Physics and Astronomy**  
+  Ghent University, 2000–2004
 
 ### Languages
-[Languages you speak - English, Dutch, etc.]
+- Dutch (native)
+- English (fluent)
+- French (intermediate)
+- German (intermediate)
 
 ---
 
@@ -145,10 +152,10 @@
 **A:** Currently Black-Scholes for European options with analytical Greeks. Planned: Monte Carlo simulation, finite difference methods, local volatility, stochastic volatility (Heston), and jump diffusion models.
 
 ### Q: Are you available for contract work?
-**A:** [Your availability status]
+**A:** Yes, I am immediately available for full-time positions or contract work. Currently based in Zurich, Switzerland, and open to opportunities in Switzerland, London, and other European locations.
 
 ### Q: What is your preferred work arrangement?
-**A:** [Remote/Hybrid/On-site preference]
+**A:** Hybrid or remote preferred, but open to on-site arrangements for the right opportunity.
 
 ---
 
@@ -158,8 +165,4 @@ Available upon request.
 
 ---
 
-**Last Updated:** April 30, 2026
-
----
-
-*Note: Please update the bracketed sections [like this] with your actual information before making this repository public.*
+**Last Updated:** May 1, 2026
