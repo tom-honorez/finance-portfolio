@@ -1,8 +1,8 @@
 # Tom Honorez - Quantitative Software Engineer
 
-Quantitative software engineer focused on building trading systems where execution, portfolio state, pricing and risk are handled consistently in real time.
+Quantitative software engineer focused on building trading systems where execution, portfolio state, pricing and risk are handled as a single consistent system in real time.
 
-Experience building pricing and risk systems used in front-office environments, working closely with traders and structuring teams.
+Experience building pricing and risk systems used in front-office environments, working closely with traders and structuring teams, with a strong focus on correctness and robustness in production.
 
 ---
 
