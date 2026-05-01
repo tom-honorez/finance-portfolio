@@ -1,8 +1,8 @@
-# 📸 Dashboard Screenshots
+# Dashboard Visualization Layer
 
 ## Overview
 
-Screenshots of the trading dashboard desktop application built with React, TypeScript, and Electron.
+Visualization layer for a C++ quantitative trading platform. These screenshots show system state monitoring for portfolio aggregation, strategy execution, and risk tracking.
 
 ---
 
@@ -11,87 +11,68 @@ Screenshots of the trading dashboard desktop application built with React, TypeS
 ### 1. Dashboard Overview
 **File:** `dashboard-overview.png`
 
-Main dashboard view showing:
-- **Portfolio Summary** - Total value, daily P&L, and performance metrics
-- **Active Strategies** - List of running trading strategies with status and metrics
-- **Recent Trades** - Real-time trade execution history
+Aggregated portfolio state and strategy activity:
+- **Portfolio Summary** - NAV, daily PnL, net/gross exposure aggregated from all strategies
+- **Active Strategies** - Strategy-level PnL, exposure, and heartbeat status
+- **Recent Trades** - Execution flow from strategy signals to filled orders
 
-**Key Features:**
-- Portfolio value: $1,250,000.50
-- Daily P&L: +$12,500.75 (+1.01%)
-- 3 active strategies (Momentum, Mean Reversion, Arbitrage)
-- Real-time trade blotter
-- Strategy health monitoring
+**System State:**
+- Portfolio NAV: $1,250,000
+- Daily PnL: +$12,500 (aggregated across strategies)
+- 3 active strategies (momentum-strategy-1, mean-reversion-1, arbitrage-1)
+- Trade execution history
 
 ### 2. Strategy Detail
 **File:** `strategy-detail.png`
 
-Detailed strategy analysis with visualizations:
-- **Equity Curve** - Strategy performance over time
-- **Daily P&L Chart** - Bar chart showing daily profits/losses
-- **Position Breakdown** - Pie chart of current positions
-- **Performance Metrics** - Sharpe ratio, Sortino ratio, win rate, profit factor
-- **Current Positions Table** - Live positions with P&L
+Strategy-level monitoring and position tracking:
+- **PnL History** - Cumulative PnL evolution from executed trades
+- **Position Breakdown** - Current positions held by strategy
+- **Performance Summary** - Total return, drawdown, trade count
+- **Recent Trades** - Strategy-specific execution history
 
-**Key Metrics:**
-- Total P&L: +$125,450.75
-- Sharpe Ratio: 2.15
-- Win Rate: 62.3% (1,247 trades)
-- Max Drawdown: -8.5%
+**Tracked Metrics:**
+- Total PnL: +$82,500
+- Position count: 3 long
+- Max Drawdown: -5.2%
+- Trades executed: 127
 
 ### 3. Risk Dashboard
 **File:** `risk-dashboard.png`
 
-Real-time risk monitoring and analysis:
-- **Exposure by Asset** - Bar chart showing position sizes
-- **Drawdown History** - Historical drawdown tracking
-- **Sector Exposure** - Pie chart of sector allocation
-- **Risk Limits** - Progress bars for various risk metrics
-- **Position Risk Table** - VaR, Beta, Volatility per position
+Portfolio-level risk aggregation and monitoring:
+- **Portfolio Risk Metrics** - NAV, exposure, drawdown aggregated from position tracker
+- **Position Concentration** - Exposure breakdown by asset
+- **Risk by Strategy** - Gross exposure per strategy
+- **Drawdown History** - Portfolio-level drawdown tracking
+- **Risk Limits** - Position size, leverage, concentration monitoring
 
-**Risk Metrics:**
-- Portfolio VaR (95%): $45,250
-- Max Drawdown: -12.3%
-- Concentration Risk: Medium
+**Risk State:**
+- Gross Exposure: $193,280
+- Max Drawdown: -8.2%
+- Concentration (top 3): 86.4%
 - Leverage: 1.25x
 
 ### 4. Portfolio Analytics
 **File:** `portfolio-analytics.png`
 
-Comprehensive performance analysis and attribution:
-- **Portfolio vs Benchmark** - Comparison with S&P 500
-- **Monthly Returns** - Bar chart of monthly performance
-- **Asset Allocation** - Pie chart of asset classes
-- **Returns Distribution** - Histogram of daily returns
-- **Strategy Comparison Table** - Side-by-side strategy metrics
+Performance attribution and aggregation:
+- **Portfolio PnL** - Historical PnL evolution across all strategies
+- **Strategy Contribution** - PnL breakdown by strategy
+- **PnL Breakdown** - Realized vs unrealized PnL
+- **Monthly Performance** - Monthly aggregation of daily PnL
 
-**Performance Metrics:**
-- Total Return: +24.8% (YTD)
-- Sharpe Ratio: 2.35
-- Sortino Ratio: 3.12
-- Alpha vs S&P 500: +8.2%
-
----
-
-## Technical Stack
-
-**Frontend:**
-- React 19+ with TypeScript
-- TailwindCSS for styling
-- Electron for desktop application
-- Real-time data updates via IPC
-
-**Design:**
-- Clean, professional interface
-- Color-coded status indicators
-- Responsive grid layouts
-- Hover effects and interactive elements
+**Aggregated Metrics:**
+- Total Return: +33.0%
+- Total PnL: +$125,000
+- Strategy count: 3
+- Current NAV: $1,542,380
 
 ---
 
 ## Notes
 
-These screenshots show the dashboard with sample data for demonstration purposes. The actual application connects to the C++ trading platform backend via inter-process communication (IPC) for real-time market data, strategy updates, and trade execution.
+These screenshots represent system output from a C++ trading platform. The visualization layer receives portfolio state, strategy updates, and execution data via IPC from the backend engine. Data shown is for demonstration purposes.
 
 ---
 
