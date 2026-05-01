@@ -1,6 +1,6 @@
 # Quantitative Trading & Risk Platform (C++ / .NET)
 
-This repository showcases the design of a trading and risk platform, focusing on execution tracking, portfolio aggregation and real-time risk monitoring.
+This project demonstrates the design of a trading and risk platform, focusing on how execution, portfolio state and risk are handled consistently in real time.
 
 Quantitative software engineering project demonstrating how I design and structure production trading systems:
 trades, positions, P&L and risk — all evolving consistently in real time.
