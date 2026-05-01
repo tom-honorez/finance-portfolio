@@ -39,10 +39,9 @@ Currently exploring opportunities in quantitative development, trading systems a
 - Open to Switzerland, London, and broader Europe
 - Available for full-time or contract positions
 
-**Get in Touch:**
-- **LinkedIn:** [linkedin.com/in/tomhonorez](https://linkedin.com/in/tomhonorez)
-- **GitHub:** [github.com/tom-honorez](https://github.com/tom-honorez)
-- **Email:** tom.honorez@outlook.com
+**LinkedIn:** [linkedin.com/in/tomhonorez](https://linkedin.com/in/tomhonorez)  
+**GitHub:** [github.com/tom-honorez](https://github.com/tom-honorez)  
+**Email:** tom.honorez@outlook.com
 
 Happy to discuss system design, architecture decisions, or walk through the platform in detail.
 
