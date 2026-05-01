@@ -28,7 +28,7 @@ Aggregated portfolio state and strategy activity:
 Strategy-level monitoring and position tracking:
 - **PnL History** - Cumulative PnL evolution from executed trades
 - **Position Breakdown** - Current positions held by strategy
-- **Performance Summary** - Total return, drawdown, trade count
+- **Strategy Metrics** - Total return, drawdown, trade count
 - **Recent Trades** - Strategy-specific execution history
 
 **Tracked Metrics:**
@@ -60,7 +60,7 @@ Performance attribution and aggregation:
 - **Portfolio PnL** - Historical PnL evolution across all strategies
 - **Strategy Contribution** - PnL breakdown by strategy
 - **PnL Breakdown** - Realized vs unrealized PnL
-- **Monthly Performance** - Monthly aggregation of daily PnL
+- **Monthly Aggregation** - Monthly aggregation of daily PnL
 
 **Aggregated Metrics:**
 - Total Return: +33.0%
