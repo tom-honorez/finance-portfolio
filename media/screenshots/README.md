@@ -26,7 +26,7 @@ Aggregated portfolio state and strategy activity:
 **File:** `strategy-detail.png`
 
 Strategy-level monitoring and position tracking:
-- **PnL History** - Cumulative PnL evolution from executed trades
+- **PnL History** - Cumulative PnL computed from executed trades
 - **Position Breakdown** - Current positions held by strategy
 - **Strategy Metrics** - Total return, drawdown, trade count
 - **Recent Trades** - Strategy-specific execution history
@@ -57,7 +57,7 @@ Portfolio-level risk aggregation and monitoring:
 **File:** `portfolio-analytics.png`
 
 Performance attribution and aggregation:
-- **Portfolio PnL** - Historical PnL evolution across all strategies
+- **Portfolio PnL** - Aggregated PnL across all strategies
 - **Strategy Contribution** - PnL breakdown by strategy
 - **PnL Breakdown** - Realized vs unrealized PnL
 - **Monthly Aggregation** - Monthly aggregation of daily PnL
@@ -65,7 +65,7 @@ Performance attribution and aggregation:
 **Aggregated Metrics:**
 - Total Return: +33.0%
 - Total PnL: +$125,000
-- Strategy count: 3
+- Active strategies: 3
 - Current NAV: $1,542,380
 
 ---
