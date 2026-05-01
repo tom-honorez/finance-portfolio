@@ -6,22 +6,6 @@ This directory contains visual assets for the portfolio showcase.
 
 ---
 
-## Diagrams
-
-**Location:** `diagrams/`
-
-**Planned diagrams:**
-- System architecture overview
-- Mediator pattern flow
-- Message flow diagram
-- Component interaction
-- Builder pattern hierarchy
-- Pricing library structure
-
-**Tools:** Draw.io, PlantUML, or similar
-
----
-
 ## Screenshots
 
 **Location:** `screenshots/`
@@ -63,7 +47,6 @@ When adding media assets:
 ## Current Status
 
 - **Screenshots:** ✅ Available - System state visualization with sample data
-- **Diagrams:** Planned for future updates
 - **Videos:** Planned for future updates
 
 Screenshots illustrate system state and outputs from the C++ trading platform.
