@@ -82,15 +82,20 @@ This reflects the same design concerns encountered in production trading and ris
 
 ---
 
-## 🧮 Quantitative Component
+## 🧮 Quantitative Pricing Component
 
-A separate pricing library (Python) complements the platform:
+The platform integrates with a quantitative pricing library (Python) for derivatives valuation and risk analytics:
 
-* Black-Scholes pricing
-* Greek calculations (Delta, Gamma, Vega, Theta, Rho)
-* Scenario analysis
+* **Pricing models:** Black-Scholes for options valuation
+* **Risk sensitivities:** Greeks (Delta, Gamma, Vega, Theta, Rho) for position risk analysis
+* **Scenario analysis:** Portfolio stress testing and what-if scenarios
 
-The intent is to integrate pricing and execution/risk into a single consistent framework.
+This pricing layer feeds directly into:
+- P&L calculations (mark-to-market valuations)
+- Risk monitoring (exposure and sensitivity tracking)
+- Portfolio analytics (scenario-based risk assessment)
+
+The library is designed for integration with the C++ execution and risk platform, bridging quantitative modeling with real-time system requirements.
 
 ---
 
