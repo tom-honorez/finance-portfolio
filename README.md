@@ -30,22 +30,20 @@ Experience building pricing and risk systems used in front-office environments, 
 
 ---
 
-> Core implementations are private and available upon request under NDA.
-
----
-
 ## Contact
 
-I'm currently exploring opportunities in quantitative development, trading systems, and risk engineering.
+Currently exploring opportunities in quantitative development, trading systems, and risk engineering.
 
 **Availability:**
 - Based in Zurich, Switzerland
 - Open to Switzerland, London, and broader Europe
 - Available for full-time or contract positions
 
-**Contact Information:**
+**Get in Touch:**
 - **LinkedIn:** [linkedin.com/in/tomhonorez](https://linkedin.com/in/tomhonorez)
 - **GitHub:** [github.com/tom-honorez](https://github.com/tom-honorez)
 - **Email:** tom.honorez@outlook.com
 
-I'm happy to discuss system design, architecture decisions, or walk through the platform in more detail. Additional material and full implementations are available upon request under NDA.
+I'm happy to discuss system design, architecture decisions, or walk through the platform in more detail.
+
+> Full implementations and additional material are available upon request under NDA.
