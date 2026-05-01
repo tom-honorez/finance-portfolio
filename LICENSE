@@ -1,14 +1,13 @@
 Portfolio Showcase License
 
-Copyright (c) 2026
+Copyright (c) 2026 Tom Honorez
 
-This repository is for portfolio and demonstration purposes only.
+This repository is provided for portfolio and demonstration purposes only.
 
-The code samples and documentation in this repository are simplified examples
-and do not represent the complete private implementations.
+The code samples and documentation are simplified excerpts and do not represent the full private implementations used in production environments.
 
-All rights reserved. No part of this repository may be reproduced, distributed,
-or transmitted in any form or by any means without the prior written permission
-of the copyright holder.
+The intent of this repository is to illustrate system design, engineering approach, and quantitative capabilities.
 
-For access to the full private repositories, please contact the author under NDA.
+For access to more complete implementations or deeper technical discussions, please contact the author.
+
+All rights reserved.
