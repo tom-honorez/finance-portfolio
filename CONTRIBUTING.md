@@ -20,7 +20,7 @@ If you're interested in this work:
 
 1. Read [README.md](README.md) for an overview
 2. Explore [PLATFORM.md](PLATFORM.md) and [PRICING.md](PRICING.md) for technical details
-3. Contact me to discuss implementation details or arrange access to private repositories
+3. Contact me to discuss the system or request access to additional material under NDA
 
 ---
 
