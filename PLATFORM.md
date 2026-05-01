@@ -80,6 +80,8 @@ The implementation emphasizes:
 
 This reflects the same design concerns encountered in production trading and risk systems.
 
+Design patterns reflect real-world integration with trading platforms (e.g. Sophis) and pricing systems.
+
 ---
 
 ## 📚 Additional Notes

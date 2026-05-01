@@ -9,6 +9,7 @@ This component is designed as a pricing layer within a trading and risk system, 
 ### Pricing Models
 * Black-Scholes for European options valuation
 * Support for calls and puts
+* Designed with extensions towards Monte Carlo simulation and more advanced model frameworks used in production environments
 
 ### Risk Analytics
 * Greeks calculation (Delta, Gamma, Vega, Theta, Rho)
