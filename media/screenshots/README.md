@@ -55,6 +55,22 @@ Real-time risk monitoring and analysis:
 - Concentration Risk: Medium
 - Leverage: 1.25x
 
+### 4. Portfolio Analytics
+**File:** `portfolio-analytics.png`
+
+Comprehensive performance analysis and attribution:
+- **Portfolio vs Benchmark** - Comparison with S&P 500
+- **Monthly Returns** - Bar chart of monthly performance
+- **Asset Allocation** - Pie chart of asset classes
+- **Returns Distribution** - Histogram of daily returns
+- **Strategy Comparison Table** - Side-by-side strategy metrics
+
+**Performance Metrics:**
+- Total Return: +24.8% (YTD)
+- Sharpe Ratio: 2.35
+- Sortino Ratio: 3.12
+- Alpha vs S&P 500: +8.2%
+
 ---
 
 ## Technical Stack
