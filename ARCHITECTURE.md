@@ -3,7 +3,7 @@
 
 The platform's **system architecture and engineering** focuses on real-time trading infrastructure: deterministic state management, concurrent processing, fault tolerance, and multi-component coordination.
 
-Demonstrates production-grade design patterns for execution, portfolio aggregation, and risk monitoring in distributed trading environments.
+Explores architectural patterns for execution, portfolio aggregation, and risk monitoring in multi-component trading systems.
 
 ---
 
@@ -154,26 +154,13 @@ The platform is built around **modular components** with clear responsibilities:
 - Real-time breach detection and alerts
 - Risk scenario analysis integration
 
-**Data Science Integration**
-- Market data analysis and feature extraction
-- Signal generation for trading strategies
-- Backtesting infrastructure
-- Performance analytics
-
 ---
 
 ## Demonstrations
 
-**Available Now:**
 - Screenshots of monitoring dashboards
 - System architecture diagrams
 - Component interaction flows
-
-**Coming Soon:**
-- Video walkthroughs of key workflows
-- Interactive system demonstrations
-- Performance benchmarks and metrics
-- Case studies of specific challenges solved
 
 ---
 

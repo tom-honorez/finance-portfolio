@@ -1,9 +1,9 @@
 ![Trading Platform Portfolio](media/banner.png)
 
 # Tom Honorez
-**Trading Systems & Quantitative Infrastructure Portfolio**
+**Trading Systems & Risk Analytics Portfolio**
 
-Exploring architectural and quantitative challenges in trading systems: real-time state management, concurrent processing, derivatives pricing, and portfolio risk analytics.
+Building trading infrastructure addressing architectural and quantitative challenges in real-time state management, concurrent processing, derivatives pricing, and portfolio risk analytics.
 
 Integrates trading infrastructure (C++/C#) with quantitative models (Python) in a coherent platform for trading infrastructure and risk monitoring.
 
@@ -67,7 +67,6 @@ Emphasis on correctness and operational reliability in production-like condition
 - Monte Carlo simulation
 - Finite difference methods
 - Numerical optimization
-- Machine learning techniques
 
 **Risk Analytics**
 - Scenario analysis and stress testing
@@ -80,8 +79,7 @@ Emphasis on correctness and operational reliability in production-like condition
 ## Core Technologies
 
 **Languages:** C++17, C#/.NET, Python  
-**Messaging:** AMQP (RabbitMQ), Kafka  
-**APIs:** REST (planned)  
+**Messaging:** AMQP (RabbitMQ), Kafka, REST  
 **Data Processing:** Real-time market data, statistical analysis  
 **UI:** React-based monitoring dashboards  
 
