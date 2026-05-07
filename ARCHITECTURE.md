@@ -1,9 +1,9 @@
-# Engineering Track
+# System Architecture
 ## Trading Systems Infrastructure (C++/C#)
 
-This track focuses on the **system architecture and engineering challenges** in building real-time trading infrastructure: deterministic state management, concurrent processing, fault tolerance, and multi-component coordination.
+The platform's **system architecture and engineering** focuses on real-time trading infrastructure: deterministic state management, concurrent processing, fault tolerance, and multi-component coordination.
 
-The platform demonstrates production-grade design patterns for execution, portfolio aggregation, and risk monitoring in distributed trading environments.
+Demonstrates production-grade design patterns for execution, portfolio aggregation, and risk monitoring in distributed trading environments.
 
 ---
 
@@ -159,23 +159,6 @@ The platform is built around **modular components** with clear responsibilities:
 - Signal generation for trading strategies
 - Backtesting infrastructure
 - Performance analytics
-
----
-
-## Future Enhancements
-
-**Planned:**
-- REST API layer for external integration
-- Enhanced backtesting capabilities
-- Machine learning model integration
-- Advanced risk analytics (VaR, stress testing)
-- Multi-asset class support expansion
-
-**Under Consideration:**
-- Cloud deployment (AWS/Azure)
-- Distributed execution across regions
-- Advanced order types and execution algorithms
-- Real-time compliance monitoring
 
 ---
 

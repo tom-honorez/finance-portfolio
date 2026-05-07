@@ -5,21 +5,19 @@
 
 Exploring architectural and quantitative challenges in trading systems: real-time state management, concurrent processing, derivatives pricing, and portfolio risk analytics.
 
-Integrates trading infrastructure (C++/C#) with quantitative models (Python) in a coherent platform for systematic trading and risk monitoring.
+Integrates trading infrastructure (C++/C#) with quantitative models (Python) in a coherent platform for trading infrastructure and risk monitoring.
 
 ---
 
-## Explore by Focus
+## Platform Overview
 
-This portfolio demonstrates capabilities across complementary domains:
+The platform integrates system engineering and quantitative modeling in a coherent architecture:
 
-**[Engineering Track →](./ENGINEERING.md)**  
-System architecture, messaging infrastructure, concurrent processing, fault tolerance, and real-time coordination.
+**[System Architecture →](./ARCHITECTURE.md)**  
+Real-time infrastructure, messaging, concurrent processing, fault tolerance, and operational reliability.
 
-**[Quantitative Track →](./QUANTITATIVE.md)**  
-Derivatives pricing, risk analytics, scenario analysis, and quantitative modeling across asset classes.
-
-*Both integrated within a single platform.*
+**[Pricing & Analytics →](./PRICING.md)**  
+Derivatives pricing, risk analytics, scenario analysis, and model calibration across asset classes.
 
 ---
 
@@ -32,7 +30,7 @@ Core challenges addressed in real-time trading systems:
 - **Multi-Strategy Coordination** - Independent strategy execution with portfolio-wide aggregation
 - **Fault Tolerance** - System robustness and recovery in distributed environments
 
-Emphasis on correctness and operational reliability in production-like conditions.
+Emphasis on correctness and operational reliability in production-like conditions. Particular attention is given to maintaining consistent portfolio state across asynchronous system components.
 
 ---
 
@@ -54,30 +52,28 @@ Emphasis on correctness and operational reliability in production-like condition
 - Systematic strategy implementation
 - Multi-strategy portfolio management
 - Performance attribution
-
-**Data Science & Analytics**
-- Market data analysis and pattern recognition
-- Feature engineering for trading signals
-- Backtesting infrastructure
+- Backtesting and signal analysis
 
 ### Quantitative Library (Python)
 
 **Derivatives Pricing**
-- Multi-asset class models (equity, rates, FX, commodities, crypto)
-- Current: Black-Scholes, Heston, local volatility (Dupire)
-- Planned: Hull-White (rates), asset-class specific extensions
-- Greeks calculation and risk sensitivities
+- Multi-asset class coverage: equity, rates, FX, commodities, crypto
+- Vanilla and exotic derivatives
+- Structured products
+- Greeks and risk sensitivities
 
 **Pricing Methods**
+- Analytical methods
 - Monte Carlo simulation
 - Finite difference methods
-- Machine learning approaches (planned)
-- Model calibration and validation
+- Numerical optimization
+- Machine learning techniques
 
-**Scenario Analysis**
-- Stress testing and what-if scenarios
+**Risk Analytics**
+- Scenario analysis and stress testing
+- Value at Risk and risk metrics
 - Portfolio sensitivity analysis
-- Risk scenario modeling
+- Model calibration and validation
 
 ---
 
@@ -93,9 +89,9 @@ Emphasis on correctness and operational reliability in production-like condition
 
 ## Screenshots & Demos
 
-Visual demonstrations of the platform capabilities are available in the track-specific pages:
-- [Engineering Track](./ENGINEERING.md) - System dashboards, monitoring, real-time state
-- [Quantitative Track](./QUANTITATIVE.md) - Pricing analytics, risk metrics, scenarios
+Visual demonstrations of the platform capabilities:
+- [System Architecture](./ARCHITECTURE.md) - Dashboards, monitoring, real-time state management
+- [Pricing & Analytics](./PRICING.md) - Pricing models, risk metrics, scenario analysis
 
 **Coming soon:** Video demonstrations and interactive walkthroughs
 
