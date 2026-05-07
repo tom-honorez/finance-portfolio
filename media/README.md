@@ -6,6 +6,21 @@ This directory contains visual assets for the portfolio showcase.
 
 ---
 
+## Banner Image
+
+**File:** `banner.png`
+
+The banner image is displayed at the top of the main README and showcases the platform's monitoring capabilities through a composition of dashboard elements:
+- Portfolio performance metrics
+- Risk monitoring displays
+- Strategy tracking
+- Real-time state visualization
+
+**Dimensions:** 1584 x 396 pixels (4:1 aspect ratio)  
+**Format:** PNG with transparency
+
+---
+
 ## Screenshots
 
 **Location:** `screenshots/`
