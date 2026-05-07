@@ -3,7 +3,7 @@
 
 The platform's **system architecture and engineering** focuses on real-time trading infrastructure: deterministic state management, concurrent processing, fault tolerance, and multi-component coordination.
 
-Explores architectural patterns for execution, portfolio aggregation, and risk monitoring in multi-component trading systems.
+Explores engineering challenges around execution, portfolio aggregation, and risk monitoring in multi-component trading systems.
 
 ---
 
@@ -89,14 +89,14 @@ The platform is built around **modular components** with clear responsibilities:
 - Alert generation and escalation
 
 **Monitoring Layer**
-- Real-time dashboards (React-based UI)
+- Real-time portfolio and risk visualization
+- Operational monitoring dashboards
 - Strategy health and performance tracking
-- System state visualization
 
 **Messaging Infrastructure**
 - AMQP (RabbitMQ) for reliable message delivery
 - Kafka for high-throughput event streaming
-- REST APIs (planned) for request-response patterns
+- REST APIs for request-response patterns
 
 ---
 
@@ -117,10 +117,10 @@ The platform is built around **modular components** with clear responsibilities:
 - Observable system state at all times
 - Comprehensive logging and diagnostics
 
-**Scalability Considerations**
-- Multi-process architecture
-- Asynchronous message processing
-- Horizontal scaling capabilities
+**Operational Scalability**
+- Multi-strategy execution coordination
+- Concurrent processing across asynchronous components
+- Real-time aggregation under increasing event throughput
 
 ---
 
@@ -159,8 +159,8 @@ The platform is built around **modular components** with clear responsibilities:
 ## Demonstrations
 
 - Screenshots of monitoring dashboards
-- System architecture diagrams
-- Component interaction flows
+- Component interaction overviews
+- System behavior examples
 
 ---
 
