@@ -28,7 +28,7 @@ Core challenges addressed in real-time trading systems:
 - **Deterministic State Management** - Consistent portfolio state across execution, pricing, and risk components
 - **Concurrent Event Processing** - Coordinating asynchronous flows while preserving correctness
 - **Multi-Strategy Coordination** - Independent strategy execution with portfolio-wide aggregation
-- **Fault Tolerance** - System robustness and recovery in distributed environments
+- **Fault Tolerance** - System robustness and recovery in real-time environments
 
 Emphasis on correctness and operational reliability in production-like conditions. Particular attention is given to maintaining consistent portfolio state across asynchronous system components.
 
@@ -52,7 +52,7 @@ Emphasis on correctness and operational reliability in production-like condition
 - Systematic strategy implementation
 - Multi-strategy portfolio management
 - Performance attribution
-- Backtesting and signal analysis
+- Strategy monitoring and analysis
 
 ### Quantitative Library (Python)
 
@@ -79,7 +79,8 @@ Emphasis on correctness and operational reliability in production-like condition
 ## Core Technologies
 
 **Languages:** C++17, C#/.NET, Python  
-**Messaging:** AMQP (RabbitMQ), Kafka, REST  
+**Messaging:** RabbitMQ (AMQP), Kafka  
+**Interfaces:** REST APIs  
 **Data Processing:** Real-time market data, statistical analysis  
 **UI:** React-based monitoring dashboards  
 
@@ -90,8 +91,6 @@ Emphasis on correctness and operational reliability in production-like condition
 Visual demonstrations of the platform capabilities:
 - [System Architecture](./ARCHITECTURE.md) - Dashboards, monitoring, real-time state management
 - [Pricing & Analytics](./PRICING.md) - Pricing models, risk metrics, scenario analysis
-
-**Coming soon:** Video demonstrations and interactive walkthroughs
 
 ---
 
