@@ -1,9 +1,9 @@
 # Pricing & Analytics
 ## Derivatives Pricing & Risk Analytics (Python)
 
-The platform's **quantitative modeling and analytics** component handles derivatives pricing across asset classes, risk metrics calculation, scenario analysis, and integration with the trading infrastructure for real-time P&L and risk monitoring.
+The platform's **quantitative modeling and analytics** component handles derivatives pricing, risk metrics calculation, scenario analysis, and integration with the trading infrastructure for real-time P&L and risk monitoring.
 
-Demonstrates production-grade quantitative modeling with emphasis on correctness, numerical stability, and system integration.
+Focused on robust numerical methods, risk analytics, and integration with real-time trading infrastructure.
 
 ---
 
@@ -25,11 +25,6 @@ Demonstrates production-grade quantitative modeling with emphasis on correctness
 - Currency options
 - Cross-currency derivatives
 - Quanto adjustments
-
-### Commodities & Crypto
-- Commodity derivatives
-- Crypto options and futures
-- Seasonality and convenience yield modeling
 
 ### Structured Products
 - Multi-asset derivatives
@@ -64,33 +59,32 @@ Demonstrates production-grade quantitative modeling with emphasis on correctness
 - Parameter estimation
 - Volatility surface fitting
 
-### Machine Learning
-- Model calibration and validation
-- Pattern recognition in market data
-- Pricing acceleration techniques
-
 ---
 
 ## Risk Analytics
 
 ### Greeks & Sensitivities
-- Delta, Gamma, Vega, Theta, Rho
-- Second-order Greeks
-- Portfolio-level aggregation
-- Net exposure and hedging ratios
+- First and second-order Greeks calculation
+- Portfolio-level risk aggregation
+- Net exposure tracking across positions
+- Hedging ratio computation
+- Cross-gamma and correlation effects
 
-### Scenario Analysis
-- Market shock scenarios
-- Historical scenario replay
-- Custom stress testing
-- Multi-dimensional what-if analysis
-- Correlation and tail risk analysis
+### Scenario Analysis & Stress Testing
+- Market shock scenarios (equity crash, volatility spike, rate shifts)
+- Historical scenario replay and backtesting
+- Custom stress testing frameworks
+- Multi-dimensional parameter sweeps
+- Correlation breakdown analysis
+- Tail risk and extreme event modeling
 
-### Risk Metrics
-- Value at Risk
-- Expected Shortfall
-- Maximum drawdown
-- Performance ratios
+### Portfolio Risk Metrics
+- Value at Risk (VaR) - historical, parametric, Monte Carlo
+- Expected Shortfall (CVaR)
+- Maximum drawdown and recovery analysis
+- Risk-adjusted performance metrics
+- Concentration risk measurement
+- Intraday exposure tracking
 
 ---
 
@@ -163,33 +157,10 @@ Demonstrates production-grade quantitative modeling with emphasis on correctness
 
 ## Demonstrations
 
-**Available Now:**
 - Pricing examples and notebooks
 - Greeks calculation demonstrations
 - Scenario analysis examples
-
-**Coming Soon:**
-- Interactive pricing calculators
-- Volatility surface visualizations
-- Model comparison studies
-- Calibration case studies
-- Performance benchmarks
-
----
-
-## Research & Development
-
-**Current Focus:**
-- Numerical stability in extreme market conditions
-- Efficient calibration algorithms
-- Model risk quantification
-- Integration patterns with trading systems
-
-**Areas of Interest:**
-- Quantum computing applications
-- Alternative data for volatility prediction
-- ESG factor integration
-- Advanced numerical methods
+- Calibration and validation workflows
 
 ---
 
