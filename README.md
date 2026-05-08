@@ -1,4 +1,6 @@
-![Trading Platform Portfolio](media/banner.png)
+<p align="center">
+  <img src="media/banner.png" width="100%" alt="Trading Platform Portfolio">
+</p>
 
 # Tom Honorez
 **Trading Systems & Risk Analytics Portfolio**
