@@ -26,6 +26,11 @@ Focused on robust numerical methods, risk analytics, and integration with real-t
 - Cross-currency derivatives
 - Quanto adjustments
 
+### Crypto Derivatives
+- Crypto options and futures
+- Volatility modeling for digital assets
+- Cross-exchange arbitrage considerations
+
 ### Structured Products
 - Multi-asset derivatives
 - Path-dependent payoffs
@@ -46,7 +51,7 @@ Focused on robust numerical methods, risk analytics, and integration with real-t
 - Variance reduction techniques
 - Exotic option pricing
 - Multi-asset correlation handling
-- Parallel and GPU-accelerated computation
+- Parallel and distributed computation
 
 ### Finite Difference Methods
 - PDE-based pricing
@@ -72,7 +77,7 @@ Focused on robust numerical methods, risk analytics, and integration with real-t
 
 ### Scenario Analysis & Stress Testing
 - Market shock scenarios (equity crash, volatility spike, rate shifts)
-- Historical scenario replay and backtesting
+- Historical scenario replay and stress analysis
 - Custom stress testing frameworks
 - Multi-dimensional parameter sweeps
 - Correlation breakdown analysis
@@ -136,7 +141,7 @@ Focused on robust numerical methods, risk analytics, and integration with real-t
 ## Technical Implementation
 
 **Core Library**
-- Pure Python implementation
+- Python-based quantitative library
 - NumPy/SciPy for numerical computations
 - Pandas for data manipulation
 - Vectorized calculations for performance
@@ -164,4 +169,4 @@ Focused on robust numerical methods, risk analytics, and integration with real-t
 
 ---
 
-**Note:** This is a portfolio project demonstrating quantitative modeling capabilities. Detailed implementations, research notes, and calibration methodologies available upon request.
+**Note:** This is a portfolio project demonstrating quantitative modeling capabilities. Detailed implementations, modeling notes, and calibration methodologies available upon request.
