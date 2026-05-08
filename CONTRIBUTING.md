@@ -19,7 +19,7 @@ I'm happy to discuss:
 If you're interested in this work:
 
 1. Read [README.md](README.md) for an overview
-2. Explore [PLATFORM.md](PLATFORM.md) and [PRICING.md](PRICING.md) for technical details
+2. Explore [ARCHITECTURE.md](ARCHITECTURE.md) and [PRICING.md](PRICING.md) for technical details
 3. Contact me to discuss the system or request access to additional material under NDA
 
 ---
