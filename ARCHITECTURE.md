@@ -103,7 +103,7 @@ The platform is built around **modular components** with clear responsibilities:
 ## Key Design Principles
 
 **Correctness First**
-- Deterministic behavior under all conditions
+- Deterministic behavior across concurrent processing flows
 - Comprehensive validation and error handling
 - No silent failures or state corruption
 
@@ -152,7 +152,7 @@ The platform is built around **modular components** with clear responsibilities:
 - Drawdown tracking (current, maximum, recovery)
 - Exposure limits (position size, concentration)
 - Real-time breach detection and alerts
-- Risk scenario analysis integration
+- Scenario-based risk monitoring
 
 ---
 
