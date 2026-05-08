@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/banner.png" width="100%" alt="Trading Platform Portfolio">
+  <img src="media/banner.png" width="98%">
 </p>
 
 # Tom Honorez
