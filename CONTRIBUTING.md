@@ -9,7 +9,7 @@ This repository is a portfolio showcase. Full implementations are private and av
 I'm happy to discuss:
 - System architecture and design decisions
 - Execution and risk modeling approaches
-- Quantitative models and integration
+- Pricing, risk analytics, and system integration
 - Trade-offs in production trading systems
 
 ---
