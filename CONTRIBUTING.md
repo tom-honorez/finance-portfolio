@@ -26,6 +26,6 @@ If you're interested in this work:
 
 ## Contact
 
-I'm happy to walk through the system design or discuss implementation details.
+I'm happy to discuss system design, engineering trade-offs, and architectural decisions.
 
 For inquiries, please see the contact information in the main README.
