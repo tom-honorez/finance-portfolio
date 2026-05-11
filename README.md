@@ -7,7 +7,7 @@
 
 Building trading infrastructure addressing architectural and quantitative challenges in real-time state management, concurrent processing, derivatives pricing, and portfolio risk analytics.
 
-Integrates trading infrastructure (C++/C#) with quantitative models (Python) in a coherent platform for trading infrastructure and risk monitoring.
+Integrates trading infrastructure (C++) with quantitative models (Python) in a coherent platform for trading and risk monitoring.
 
 ---
 
@@ -38,7 +38,7 @@ Emphasis on correctness and operational reliability in production-like condition
 
 ## Platform Capabilities
 
-### Trading Platform (C++/C#)
+### Trading Platform (C++)
 
 **Execution & Order Management**
 - Real-time order lifecycle tracking
@@ -80,7 +80,7 @@ Emphasis on correctness and operational reliability in production-like condition
 
 ## Core Technologies
 
-**Languages:** C++17, C#/.NET, Python  
+**Languages:** C++17, Python  
 **Messaging:** RabbitMQ (AMQP), Kafka  
 **Interfaces:** REST APIs  
 **Data Processing:** Real-time market data, statistical analysis  
