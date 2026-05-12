@@ -1,9 +1,4 @@
 # Tom Honorez
-**Trading Systems & Risk Analytics Portfolio**
-
----
-
-## Trading & Risk Platform
 
 **C++17 trading platform for multi-strategy portfolio management, execution tracking and real-time risk monitoring**
 
