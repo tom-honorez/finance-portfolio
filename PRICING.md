@@ -1,172 +1,117 @@
-# Pricing & Analytics
-## Derivatives Pricing & Risk Analytics (Python)
+# Quantitative Analytics
+## Derivatives Pricing & Risk Analysis
 
-The platform's **quantitative modeling and analytics** component handles derivatives pricing, risk metrics calculation, scenario analysis, and integration with the trading infrastructure for real-time P&L and risk monitoring.
+Integrated quantitative library supporting strategy development, portfolio valuation, and risk analysis across multiple asset classes.
 
-Focused on robust numerical methods, risk analytics, and integration with real-time trading infrastructure.
+The library provides derivatives pricing, Greeks calculation, scenario analysis, and risk metrics used for strategy backtesting, position hedging, and real-time portfolio risk monitoring.
 
 ---
 
-## Pricing Models
+## Asset Class Coverage
 
-### Equity Derivatives
-- European and American options
-- Exotic options: Asian, Barrier, Lookback
-- Dividend adjustments
-- Volatility surface modeling
+The library supports derivatives pricing and risk analytics across multiple asset classes, enabling strategy development and hedging for multi-asset portfolios.
 
-### Interest Rate Derivatives
-- Interest rate options and swaptions
-- Caps, floors, and collars
-- Bond options
-- Term structure modeling
+**Equity Derivatives**
+- Vanilla options (European, American) and exotic structures (Asian, Barrier, Lookback)
+- Volatility surface modeling and implied volatility calculation
+- Dividend adjustments and corporate action handling
 
-### FX Derivatives
-- Currency options
-- Cross-currency derivatives
-- Quanto adjustments
+**Crypto Derivatives**
+- Options and futures on digital assets
+- Volatility modeling for crypto markets
+- Cross-exchange arbitrage analysis
 
-### Crypto Derivatives
-- Crypto options and futures
-- Volatility modeling for digital assets
-- Cross-exchange arbitrage considerations
+**Interest Rate & FX Derivatives**
+- Interest rate options, swaptions, caps and floors
+- Currency options and cross-currency products
+- Term structure and yield curve modeling
 
-### Structured Products
-- Multi-asset derivatives
+**Multi-Asset Products**
+- Correlation modeling and basket options
 - Path-dependent payoffs
-- Autocallables and reverse convertibles
-- Custom structured solutions
+- Custom structured derivatives
 
 ---
 
-## Pricing Methods
+## Numerical Methods
 
-### Analytical Methods
-- Closed-form solutions for vanilla products
-- Greeks calculation
-- Implied volatility computation
+**Analytical Solutions**
+- Closed-form pricing for vanilla options (Black-Scholes, Black-76, Bachelier)
+- Greeks calculation (Delta, Gamma, Vega, Theta, Rho)
+- Implied volatility computation with robust root-finding
 
-### Monte Carlo Simulation
-- Path generation and simulation
-- Variance reduction techniques
-- Exotic option pricing
-- Multi-asset correlation handling
-- Parallel and distributed computation
+**Monte Carlo Simulation**
+- Path generation for exotic options and multi-asset derivatives
+- Variance reduction techniques (antithetic variates, control variates)
+- Parallel computation for performance optimization
+- Correlation handling for multi-asset portfolios
 
-### Finite Difference Methods
-- PDE-based pricing
-- American option pricing
-- Multi-dimensional solvers
-- Adaptive grid techniques
+**Finite Difference Methods**
+- PDE-based pricing for American options and early exercise features
+- Multi-dimensional solvers for complex derivatives
+- Adaptive grid techniques for accuracy and efficiency
 
-### Numerical Optimization
-- Model calibration
-- Parameter estimation
-- Volatility surface fitting
+**Calibration & Optimization**
+- Volatility surface construction and arbitrage-free interpolation
+- Model parameter estimation and fitting
+- Numerical optimization for calibration to market data
 
 ---
 
 ## Risk Analytics
 
-### Greeks & Sensitivities
-- First and second-order Greeks calculation
-- Portfolio-level risk aggregation
-- Net exposure tracking across positions
-- Hedging ratio computation
-- Cross-gamma and correlation effects
+**Greeks & Portfolio Sensitivities**
+- First and second-order Greeks (Delta, Gamma, Vega, Theta, Rho)
+- Portfolio-level risk aggregation across strategies
+- Net exposure tracking and hedging ratio computation
+- Cross-gamma and correlation effects for multi-asset positions
 
-### Scenario Analysis & Stress Testing
-- Market shock scenarios (equity crash, volatility spike, rate shifts)
-- Historical scenario replay and stress analysis
+**Scenario Analysis & Stress Testing**
+- Market shock scenarios: equity crashes, volatility spikes, rate shifts
+- Historical scenario replay for strategy validation
 - Custom stress testing frameworks
-- Multi-dimensional parameter sweeps
-- Correlation breakdown analysis
-- Tail risk and extreme event modeling
+- Correlation breakdown and tail risk analysis
 
-### Portfolio Risk Metrics
-- Value at Risk (VaR) - historical, parametric, Monte Carlo
-- Expected Shortfall (CVaR)
-- Maximum drawdown and recovery analysis
-- Risk-adjusted performance metrics
-- Concentration risk measurement
-- Intraday exposure tracking
+**Portfolio Risk Metrics**
+- Value at Risk (VaR): historical, parametric, and Monte Carlo methods
+- Expected Shortfall (CVaR) and tail risk measures
+- Maximum drawdown tracking and recovery analysis
+- Risk-adjusted performance metrics (Sharpe, Sortino)
+- Concentration risk and exposure limits
 
 ---
 
-## Model Calibration
+## Integration with Trading Platform
 
-- Volatility surface construction
-- Parameter estimation
-- Model validation and backtesting
-- Arbitrage-free constraints
+The quantitative library integrates with the C++ trading infrastructure to provide:
 
----
+**Real-Time Valuation & P&L**
+- Mark-to-market pricing for portfolio positions
+- Intraday P&L calculation and attribution by strategy
+- Greeks calculation for real-time risk monitoring
 
-## System Integration
+**Strategy Development & Backtesting**
+- Pricing models for strategy signal generation
+- Historical scenario analysis for strategy validation
+- Risk metrics for position sizing and portfolio construction
 
-### Trading Platform Integration
-
-**Real-Time P&L**
-- Mark-to-market valuation of positions
-- Intraday P&L tracking
-- Attribution by strategy and instrument
-
-**Risk Monitoring**
-- Real-time Greeks calculation
-- Exposure tracking across strategies
-- Limit breach detection
-- Risk dashboard updates
-
-**Pricing Service**
-- On-demand pricing requests
-- Batch pricing for portfolio
-- Pricing cache management
-- Stale price detection
-
-### Data Pipeline
-
-**Market Data**
-- Real-time option prices
-- Volatility surfaces
-- Interest rate curves
-- Dividend schedules
-
-**Reference Data**
-- Instrument specifications
-- Corporate actions
-- Calendar and holidays
+**Risk Management**
+- Real-time exposure tracking and limit monitoring
+- Scenario analysis and stress testing
+- Hedging ratio computation for delta-neutral strategies
 
 ---
 
 ## Technical Implementation
 
-**Core Library**
-- Python-based quantitative library
-- NumPy/SciPy for numerical computations
-- Pandas for data manipulation
+**Core Technology**
+- Python-based quantitative library (NumPy, SciPy, Pandas)
 - Vectorized calculations for performance
+- Robust numerical methods (root-finding, PDE solvers, Monte Carlo)
+- Integration with C++ platform via messaging infrastructure
 
-**Numerical Methods**
-- Robust root-finding algorithms
-- Stable PDE solvers
-- Optimized Monte Carlo
-- Efficient calibration routines
-
-**Code Quality**
-- Comprehensive unit tests
-- Numerical accuracy validation
-- Performance benchmarks
-- Documentation and examples
-
----
-
-## Demonstrations
-
-- Pricing examples and notebooks
-- Greeks calculation demonstrations
-- Scenario analysis examples
-- Calibration and validation workflows
-
----
-
-**Note:** This is a portfolio project demonstrating quantitative modeling capabilities. Detailed implementations, modeling notes, and calibration methodologies available upon request.
+**Quality & Validation**
+- Comprehensive unit tests for numerical accuracy
+- Model validation against market data
+- Performance benchmarks and optimization
+- Arbitrage-free constraints and sanity checks
