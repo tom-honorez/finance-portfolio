@@ -88,6 +88,4 @@ The platform integrates trading infrastructure (C++), quantitative analytics (Py
 - High-performance concurrent processing
 - Financial software engineering
 
-**Technical Documentation:** [Trading Strategies](./TRADING.md) | [System Architecture](./ARCHITECTURE.md) | [Quantitative Analytics](./PRICING.md)
-
 **Contact:** [LinkedIn](https://linkedin.com/in/tomhonorez) | tom.honorez@outlook.com
