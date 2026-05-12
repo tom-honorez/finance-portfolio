@@ -2,12 +2,13 @@
   <img src="media/banner.png" width="98%">
 </p>
 
-# Algorithmic Trading Platform
+# Tom Honorez
+## Algorithmic Trading Platform
 **Multi-Strategy Execution, Backtesting & Risk Monitoring**
 
 Systematic trading platform for developing, validating and executing quantitative trading strategies across multiple markets and asset classes.
 
-The platform supports the complete trading workflow—from strategy research and backtesting to live execution, portfolio management and real-time risk monitoring.
+Supports the complete trading workflow—from strategy research and backtesting to live execution, portfolio management and real-time risk monitoring.
 
 ---
 
@@ -27,50 +28,16 @@ Track performance across strategies with detailed attribution analysis. Real-tim
 
 ---
 
-## Trading Capabilities
+## Documentation
 
 **[Trading Strategies & Execution →](./TRADING.md)**  
-Strategy types, development workflow, market coverage, and execution infrastructure for systematic trading across crypto and traditional markets.
+Strategy types, development workflow, market coverage, and execution infrastructure.
 
 **[System Architecture →](./ARCHITECTURE.md)**  
-Technical infrastructure enabling reliable multi-strategy execution: concurrent processing, state management, fault tolerance, and operational reliability.
+Technical infrastructure: concurrent processing, state management, fault tolerance, and operational reliability.
 
 **[Quantitative Analytics →](./PRICING.md)**  
-Derivatives pricing, risk analytics, and quantitative models supporting strategy development and portfolio risk analysis.
-
----
-
-## Platform Features
-
-### Execution & Order Management
-- Order lifecycle tracking from signal to fill
-- Multi-venue execution coordination
-- Position reconciliation and fill aggregation
-- Real-time execution monitoring
-
-### Strategy Framework
-- Independent strategy execution contexts
-- Backtesting and paper trading validation
-- Strategy performance attribution
-- Parameter optimization and testing
-
-### Portfolio Management
-- Real-time position aggregation across strategies
-- Multi-currency portfolio tracking
-- P&L calculation (realized and unrealized)
-- Cross-strategy exposure analysis
-
-### Risk Monitoring
-- Real-time drawdown tracking
-- Position and concentration limits
-- Exposure monitoring and alerts
-- Scenario analysis and stress testing
-
-### Market Data Integration
-- Real-time price feeds across asset classes
-- FX rate updates for multi-currency portfolios
-- Historical data for backtesting
-- Market data quality monitoring
+Derivatives pricing, risk analytics, and quantitative models for strategy development and risk analysis.
 
 ---
 
@@ -100,55 +67,27 @@ Derivatives pricing, risk analytics, and quantitative models supporting strategy
 
 ---
 
-## Architecture Highlights
+## Technical Highlights
 
-The platform addresses key challenges in systematic trading infrastructure:
+**System Architecture:** Event-driven infrastructure with deterministic state management, concurrent multi-strategy execution, and fault-tolerant processing. See **[Architecture](./ARCHITECTURE.md)** for details.
 
-**Deterministic State Management**  
-Maintains consistent portfolio state across concurrent strategy execution, pricing updates, and risk calculations through event-driven architecture with ordering guarantees.
-
-**Concurrent Multi-Strategy Execution**  
-Coordinates independent strategy processes while preserving portfolio-wide risk limits and aggregated exposure tracking.
-
-**Fault Tolerance & Recovery**  
-Ensures system robustness through component health monitoring, graceful degradation, and state recovery mechanisms.
-
-**Real-Time Processing**  
-Handles asynchronous market data, execution updates, and strategy signals with backpressure management and event sequencing.
-
-See **[System Architecture](./ARCHITECTURE.md)** for detailed technical implementation.
+**Quantitative Analytics:** Integrated library for derivatives pricing, risk analytics, and scenario analysis across multiple asset classes. See **[Analytics](./PRICING.md)** for details.
 
 ---
 
-## Quantitative Capabilities
+## About
 
-The integrated quantitative library supports strategy development and risk analysis:
+**Tom Honorez** - Quantitative Software Engineer specializing in trading systems, real-time infrastructure, and quantitative analytics.
 
-**Derivatives Pricing:** Multi-asset class coverage including equity, rates, FX, commodities, and crypto derivatives  
-**Risk Analytics:** Greeks calculation, scenario analysis, VaR, and portfolio sensitivity analysis  
-**Pricing Methods:** Analytical solutions, Monte Carlo simulation, and finite difference methods  
-**Model Calibration:** Volatility surface construction and parameter estimation  
+This platform demonstrates expertise across the full stack of systematic trading: from low-level execution infrastructure and concurrent processing to quantitative modeling and risk analytics. The project combines systems engineering (C++), quantitative development (Python), and modern UI development (React) in a production-grade trading platform.
 
-See **[Quantitative Analytics](./PRICING.md)** for detailed modeling capabilities.
+**Professional Focus:**
+- Trading systems architecture and infrastructure
+- Real-time portfolio and risk management systems
+- Quantitative analytics and derivatives pricing
+- High-performance concurrent processing
+- Financial software engineering
 
----
-
-## Use Cases
-
-**Systematic Strategy Trading**  
-Develop and execute quantitative strategies across multiple markets with integrated backtesting and risk management.
-
-**Multi-Strategy Portfolio Management**  
-Run multiple independent strategies with portfolio-wide risk aggregation and coordinated execution.
-
-**Risk Monitoring & Analysis**  
-Real-time exposure tracking, limit enforcement, and scenario analysis for active portfolio management.
-
-**Strategy Research & Development**  
-Backtesting framework and quantitative tools for validating strategies before live deployment.
-
----
-
-**Technical Documentation:** [System Architecture](./ARCHITECTURE.md) | [Trading Strategies](./TRADING.md) | [Quantitative Analytics](./PRICING.md)
+**Technical Documentation:** [Trading Strategies](./TRADING.md) | [System Architecture](./ARCHITECTURE.md) | [Quantitative Analytics](./PRICING.md)
 
 **Contact:** [LinkedIn](https://linkedin.com/in/tomhonorez) | tom.honorez@outlook.com
