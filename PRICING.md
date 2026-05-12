@@ -1,15 +1,17 @@
 # Quantitative Analytics
 ## Derivatives Pricing & Risk Analysis
 
-Integrated quantitative library supporting strategy development, portfolio valuation, and risk analysis across multiple asset classes.
+Quantitative library for derivatives pricing, risk analytics, and portfolio valuation across multiple asset classes.
 
-The library provides derivatives pricing, Greeks calculation, scenario analysis, and risk metrics used for strategy backtesting, position hedging, and real-time portfolio risk monitoring.
+**Development Status:** The quantitative library is under active development, with current focus on establishing robust numerical infrastructure. Pricing models and analytics capabilities are being implemented incrementally, prioritizing quality and accuracy over speed of delivery.
+
+The library is designed to provide derivatives pricing, Greeks calculation, scenario analysis, and risk metrics for strategy backtesting, position hedging, and real-time portfolio risk monitoring.
 
 ---
 
 ## Asset Class Coverage
 
-The library supports derivatives pricing and risk analytics across multiple asset classes, enabling strategy development and hedging for multi-asset portfolios.
+The library is designed to support derivatives pricing and risk analytics across multiple asset classes, enabling strategy development and hedging for multi-asset portfolios.
 
 **Equity Derivatives**
 - Vanilla options (European, American) and exotic structures (Asian, Barrier, Lookback)
