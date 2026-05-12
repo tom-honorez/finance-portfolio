@@ -165,5 +165,5 @@ The platform includes real-time monitoring dashboards (React/TypeScript) providi
 - **Risk Metrics:** Real-time drawdown, concentration, and limit monitoring
 - **Analytics:** Historical performance, attribution analysis, and trend visualization
 
-Screenshots above demonstrate the monitoring interface during multi-strategy execution.
+The screenshots above illustrate the real-time monitoring interface.
 
