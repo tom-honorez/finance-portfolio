@@ -1,9 +1,9 @@
 # System Architecture
-## Trading Systems Infrastructure (C++/C#)
+## Technical Infrastructure for Multi-Strategy Trading
 
-The platform's **system architecture and engineering** focuses on real-time trading infrastructure: deterministic state management, concurrent processing, fault tolerance, and multi-component coordination.
+The platform's architecture enables reliable execution of multiple concurrent trading strategies with real-time portfolio aggregation and risk monitoring.
 
-Explores engineering challenges around execution, portfolio aggregation, and risk monitoring in multi-component trading systems.
+Built on event-driven infrastructure with deterministic state management, the system coordinates asynchronous market data, strategy signals, and execution updates while maintaining consistent portfolio state across all components.
 
 ---
 
@@ -25,46 +25,46 @@ Explores engineering challenges around execution, portfolio aggregation, and ris
 
 ---
 
-## Core Engineering Challenges
+## Architecture Overview
 
-### 1. Deterministic State Management
+### Deterministic State Management
 
-**Challenge:** Maintaining consistent portfolio state across multiple concurrent processes (execution, pricing, risk) with asynchronous message flows.
+When running multiple concurrent strategies, the system maintains consistent portfolio state across execution, pricing, and risk components through event-driven architecture with ordering guarantees.
 
-**Approach:**
-- Event-driven state updates with ordering guarantees
-- Deterministic aggregation of strategy-level state to portfolio-level
-- Consistent snapshots for reporting and monitoring
+**Implementation:**
+- Event-driven state updates with sequence numbers
+- Deterministic aggregation from strategy-level to portfolio-level
+- Consistent snapshots for real-time monitoring
 - State reconciliation and recovery mechanisms
 
-### 2. Concurrent Event Processing
+### Concurrent Multi-Strategy Execution
 
-**Challenge:** Coordinating real-time updates from multiple sources (market data, executions, strategy signals) while preserving correctness.
+The platform coordinates independent strategy processes while preserving portfolio-wide risk limits. Each strategy operates in isolation with its own execution context, while the portfolio layer aggregates positions and enforces cross-strategy limits.
 
-**Approach:**
-- Message-driven architecture (AMQP, Kafka)
+**Implementation:**
+- Message-driven architecture (RabbitMQ, Kafka)
 - Asynchronous processing with backpressure handling
-- Event sequencing and correlation
-- Idempotent message handling
+- Event sequencing and correlation across strategies
+- Idempotent message handling for reliability
 
-### 3. Multi-Strategy Coordination
+### Real-Time Event Processing
 
-**Challenge:** Running multiple independent trading strategies while maintaining portfolio-wide risk limits and aggregated state.
+During active trading, the system processes asynchronous market data updates, strategy signals, and execution confirmations while maintaining correctness and low latency.
 
-**Approach:**
-- Strategy isolation with independent execution contexts
-- Portfolio-level aggregation and risk monitoring
-- Cross-strategy risk limits and exposure tracking
-- Coordinated shutdown and recovery
+**Implementation:**
+- Non-blocking concurrent processing
+- Event correlation across multiple data sources
+- Backpressure management under high throughput
+- Priority-based message routing
 
-### 4. Fault Tolerance & Recovery
+### Fault Tolerance & Recovery
 
-**Challenge:** Ensuring system robustness when components fail or restart, without losing critical state or creating inconsistencies.
+The architecture ensures system robustness when components restart or fail, preserving critical state and maintaining portfolio consistency.
 
-**Approach:**
-- Component-level health monitoring
-- Graceful degradation and recovery
-- State persistence and replay capabilities
+**Implementation:**
+- Component health monitoring and heartbeats
+- Graceful degradation and failover
+- State persistence and event replay
 - Comprehensive error handling and logging
 
 ---
@@ -156,13 +156,14 @@ The platform is built around **modular components** with clear responsibilities:
 
 ---
 
-## Demonstrations
+## Visual Monitoring
 
-- Screenshots of monitoring dashboards
-- Component interaction overviews
-- System behavior examples
+The platform includes real-time monitoring dashboards (React/TypeScript) providing visibility into:
 
----
+- **Portfolio Overview:** Aggregated positions, P&L, and exposure across all strategies
+- **Strategy Details:** Individual strategy performance, signals, and execution status  
+- **Risk Metrics:** Real-time drawdown, concentration, and limit monitoring
+- **Analytics:** Historical performance, attribution analysis, and trend visualization
 
-**Note:** This is a portfolio project demonstrating engineering capabilities. Detailed implementations and architecture documentation available upon request.
+Screenshots above demonstrate the monitoring interface during multi-strategy execution.
 
