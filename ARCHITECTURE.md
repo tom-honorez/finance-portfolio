@@ -1,9 +1,9 @@
 # System Architecture
 ## Technical Infrastructure for Multi-Strategy Trading
 
-The platform's architecture enables reliable execution of multiple concurrent trading strategies with real-time portfolio aggregation and risk monitoring.
+The platform's architecture is designed to enable reliable execution of multiple concurrent trading strategies with real-time portfolio aggregation and risk monitoring.
 
-Built on event-driven infrastructure with deterministic state management, the system coordinates asynchronous market data, strategy signals, and execution updates while maintaining consistent portfolio state across all components.
+Built on event-driven infrastructure with deterministic state management, the system is designed to coordinate asynchronous market data, strategy signals, and execution updates while maintaining consistent portfolio state across all components.
 
 ---
 
@@ -29,7 +29,7 @@ Built on event-driven infrastructure with deterministic state management, the sy
 
 ### Deterministic State Management
 
-When running multiple concurrent strategies, the system maintains consistent portfolio state across execution, pricing, and risk components through event-driven architecture with ordering guarantees.
+The architecture is designed to maintain consistent portfolio state across execution, pricing, and risk components when running multiple concurrent strategies, using event-driven architecture with ordering guarantees.
 
 **Implementation:**
 - Event-driven state updates with sequence numbers
@@ -39,7 +39,7 @@ When running multiple concurrent strategies, the system maintains consistent por
 
 ### Concurrent Multi-Strategy Execution
 
-The platform coordinates independent strategy processes while preserving portfolio-wide risk limits. Each strategy operates in isolation with its own execution context, while the portfolio layer aggregates positions and enforces cross-strategy limits.
+The platform is designed to coordinate independent strategy processes while preserving portfolio-wide risk limits. Each strategy operates in isolation with its own execution context, while the portfolio layer aggregates positions and enforces cross-strategy limits.
 
 **Implementation:**
 - Message-driven architecture (RabbitMQ, Kafka)
@@ -49,7 +49,7 @@ The platform coordinates independent strategy processes while preserving portfol
 
 ### Real-Time Event Processing
 
-During active trading, the system processes asynchronous market data updates, strategy signals, and execution confirmations while maintaining correctness and low latency.
+The system is designed to process asynchronous market data updates, strategy signals, and execution confirmations during active trading while maintaining correctness and low latency.
 
 **Implementation:**
 - Non-blocking concurrent processing
@@ -59,7 +59,7 @@ During active trading, the system processes asynchronous market data updates, st
 
 ### Fault Tolerance & Recovery
 
-The architecture ensures system robustness when components restart or fail, preserving critical state and maintaining portfolio consistency.
+The architecture is designed to ensure system robustness when components restart or fail, preserving critical state and maintaining portfolio consistency.
 
 **Implementation:**
 - Component health monitoring and heartbeats

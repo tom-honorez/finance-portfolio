@@ -53,13 +53,14 @@ Derivatives pricing, risk analytics, and quantitative models for strategy develo
 
 ## Current Status
 
-**Operational:**
-- Multi-strategy execution framework
-- Real-time portfolio aggregation
-- Risk monitoring and alerts
-- Backtesting infrastructure
+**Architecture & Infrastructure:**
+- Multi-strategy execution framework designed and implemented
+- Event-driven messaging infrastructure operational
+- Real-time portfolio aggregation architecture complete
+- Risk monitoring and dashboard components in place
 
-**In Development:**
+**Active Development:**
+- End-to-end integration and testing of core flows
 - Live exchange connectivity (Binance, Coinbase, Kraken)
 - Database persistence layer
 - Extended strategy library
