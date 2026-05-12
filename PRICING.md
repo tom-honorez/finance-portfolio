@@ -3,7 +3,7 @@
 
 Quantitative library for derivatives pricing, risk analytics, and portfolio valuation across multiple asset classes.
 
-**Development Status:** The quantitative library is under active development, with current focus on establishing robust numerical infrastructure. Pricing models and analytics capabilities are being implemented incrementally, prioritizing quality and accuracy over speed of delivery.
+**Development Roadmap:** The quantitative library is a planned extension to the trading platform. Current development priorities focus on establishing the core trading infrastructure and strategy execution framework. Quantitative analytics capabilities will be implemented once the platform foundation is operational. The scope below reflects areas of expertise and planned functionality.
 
 The library is designed to provide derivatives pricing, Greeks calculation, scenario analysis, and risk metrics for strategy backtesting, position hedging, and real-time portfolio risk monitoring.
 
@@ -112,8 +112,8 @@ The quantitative library integrates with the C++ trading infrastructure to provi
 - Robust numerical methods (root-finding, PDE solvers, Monte Carlo)
 - Integration with C++ platform via messaging infrastructure
 
-**Quality & Validation**
-- Comprehensive unit tests for numerical accuracy
-- Model validation against market data
-- Performance benchmarks and optimization
+**Validation & Quality Standards**
+- Numerical accuracy validation against analytical benchmarks
+- Model validation through comparison with market data
+- Performance optimization and benchmarking
 - Arbitrage-free constraints and sanity checks
