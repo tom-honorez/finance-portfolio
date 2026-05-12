@@ -84,8 +84,8 @@ The platform is built around **modular components** with clear responsibilities:
 - Portfolio-wide exposure aggregation
 
 **Risk Layer**
-- Real-time risk metrics (drawdown, exposure, concentration)
-- Limit monitoring and breach detection
+- Real-time risk metrics and monitoring
+- Configurable limit monitoring and breach detection
 - Alert generation and escalation
 
 **Monitoring Layer**
@@ -130,7 +130,7 @@ The platform is built around **modular components** with clear responsibilities:
 **Messaging:** RabbitMQ (AMQP), Kafka  
 **Data:** Real-time market data processing, time-series storage  
 **UI:** React, TypeScript, real-time WebSocket updates  
-**Testing:** Unit tests, integration tests, scenario-based validation  
+**Testing Approach:** Unit tests, integration tests, scenario-based validation  
 
 ---
 
@@ -149,10 +149,10 @@ The platform is built around **modular components** with clear responsibilities:
 - Portfolio-wide exposure metrics
 
 **Risk Monitoring**
-- Drawdown tracking (current, maximum, recovery)
-- Exposure limits (position size, concentration)
+- Extensible risk metrics framework
+- Configurable exposure limits and thresholds
 - Real-time breach detection and alerts
-- Scenario-based risk monitoring
+- Scenario-based risk analysis
 
 ---
 
@@ -162,7 +162,7 @@ The platform includes real-time monitoring dashboards (React/TypeScript) providi
 
 - **Portfolio Overview:** Aggregated positions, P&L, and exposure across all strategies
 - **Strategy Details:** Individual strategy performance, signals, and execution status  
-- **Risk Metrics:** Real-time drawdown, concentration, and limit monitoring
+- **Risk Metrics:** Real-time risk monitoring and limit tracking
 - **Analytics:** Historical performance, attribution analysis, and trend visualization
 
 The screenshots above illustrate the real-time monitoring interface.
