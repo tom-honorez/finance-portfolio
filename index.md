@@ -1,5 +1,5 @@
 # Tom Honorez
-## Algorithmic Trading Platform & Risk Analytics Portfolio
+## Algorithmic Trading & Risk Platform
 
 **C++17 trading platform for multi-strategy portfolio management, execution tracking and real-time risk monitoring**
 
