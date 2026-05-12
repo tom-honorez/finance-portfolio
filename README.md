@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="media/banner.png" width="98%">
-</p>
-
 # Tom Honorez
 ## Algorithmic Trading Platform
 **Multi-Strategy Execution, Backtesting & Risk Monitoring**
