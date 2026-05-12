@@ -6,7 +6,7 @@
 ## Algorithmic Trading Platform
 **Multi-Strategy Execution, Backtesting & Risk Monitoring**
 
-Systematic trading platform for developing, validating and executing quantitative trading strategies across multiple markets and asset classes.
+Multi-strategy algorithmic trading platform for developing, validating and executing quantitative trading strategies across multiple markets and asset classes.
 
 Supports the complete trading workflow—from strategy research and backtesting to live execution, portfolio management and real-time risk monitoring.
 
@@ -79,7 +79,7 @@ Derivatives pricing, risk analytics, and quantitative models for strategy develo
 
 **Tom Honorez** - Quantitative Software Engineer specializing in trading systems, real-time infrastructure, and quantitative analytics.
 
-This platform demonstrates expertise across the full stack of systematic trading: from low-level execution infrastructure and concurrent processing to quantitative modeling and risk analytics. The project combines systems engineering (C++), quantitative development (Python), and modern UI development (React) in a production-grade trading platform.
+The platform integrates trading infrastructure (C++), quantitative analytics (Python), and modern monitoring tools (React) for systematic strategy development, execution and risk management.
 
 **Professional Focus:**
 - Trading systems architecture and infrastructure
