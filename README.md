@@ -21,7 +21,7 @@ Develop systematic trading strategies with integrated backtesting framework. Tes
 Execute multiple independent trading strategies concurrently with coordinated portfolio management. Each strategy operates in isolation while maintaining portfolio-wide risk aggregation and monitoring.
 
 **Real-Time Risk Management**  
-Monitor portfolio exposure, drawdown, and risk metrics in real-time. Automated limit enforcement and alert generation ensure risk parameters remain within defined boundaries.
+Monitor portfolio exposure and risk metrics in real-time. Automated limit enforcement and alert generation ensure risk parameters remain within defined boundaries.
 
 **Portfolio Analytics**  
 Track performance across strategies with detailed attribution analysis. Real-time P&L calculation, position tracking, and exposure monitoring provide complete portfolio visibility.
