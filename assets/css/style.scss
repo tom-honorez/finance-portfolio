@@ -3,9 +3,10 @@
 
 @import "{{ site.theme }}";
 
+// Header
 .page-header {
   padding: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   background: none;
 }
 
@@ -20,26 +21,51 @@
   display: block;
 }
 
+// Typography hierarchy
 h1 {
   color: #333 !important;
+  font-size: 3rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 h2 {
   color: #555 !important;
   font-weight: 600 !important;
+  font-size: 1.75rem !important;
+  margin-top: 3rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
-h3, h4, h5, h6 {
+h3 {
+  color: #333 !important;
+  font-size: 1.25rem !important;
+  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
+}
+
+h4, h5, h6 {
   color: #333 !important;
 }
 
 .main-content h1 {
   color: #333 !important;
+  font-size: 3rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .main-content h2 {
   color: #555 !important;
   font-weight: 600 !important;
+  font-size: 1.75rem !important;
+  margin-top: 3rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.main-content h3 {
+  color: #333 !important;
+  font-size: 1.25rem !important;
+  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .main-content h3,
@@ -49,10 +75,43 @@ h3, h4, h5, h6 {
   color: #333 !important;
 }
 
+// Body text
+.main-content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.main-content strong {
+  font-weight: 600;
+  color: #333;
+}
+
+// Links
 a {
   color: #155799;
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
   color: #0d3a5f;
+  text-decoration: underline;
+}
+
+// Horizontal rules
+hr {
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 3rem 0;
+}
+
+// Lists
+.main-content ul {
+  margin-bottom: 2rem;
+}
+
+.main-content li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
 }
