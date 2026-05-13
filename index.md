@@ -13,6 +13,9 @@ Integrates trading infrastructure (C++) with quantitative models (Python) in a c
 
 The platform integrates system engineering and quantitative modeling in a coherent architecture:
 
+**[Trading Strategies & Execution →](./TRADING.md)**  
+Strategy types, development workflow, market coverage, and execution infrastructure.
+
 **[System Architecture →](./ARCHITECTURE.md)**  
 Real-time infrastructure, messaging, concurrent processing, fault tolerance, and operational reliability.
 
